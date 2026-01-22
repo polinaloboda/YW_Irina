@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><title>Send a Message to Space</title><link rel=stylesheet href=./wish1.549b02a0.css><body>
+    
+<div id=canvas-container></div>
+    
+    <div id=ui-container>
+        <div id=filter-container>
+            <button id=prediction-btn title="Get your daily prediction">Daily Prediction</button>
+            
+            <div id=filter-wrapper>
+                <label for=country-filter> </label>
+                <select id=country-filter>
+                <option value=all>ALL COUNTRIES</option>
+                <option value=Albania>Albania</option>
+                <option value=Andorra>Andorra</option>
+                <option value=Austria>Austria</option>
+                <option value=Belgium>Belgium</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value=Bulgaria>Bulgaria</option>
+                <option value=Croatia>Croatia</option>
+                <option value=Cyprus>Cyprus</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value=Denmark>Denmark</option>
+                <option value=Estonia>Estonia</option>
+                <option value=Finland>Finland</option>
+                <option value=France>France</option>
+                <option value=Germany>Germany</option>
+                <option value=Greece>Greece</option>
+                <option value=Hungary>Hungary</option>
+                <option value=Iceland>Iceland</option>
+                <option value=Ireland>Ireland</option>
+                <option value=Italy>Italy</option>
+                <option value=Kosovo>Kosovo</option>
+                <option value=Latvia>Latvia</option>
+                <option value=Liechtenstein>Liechtenstein</option>
+                <option value=Lithuania>Lithuania</option>
+                <option value=Luxembourg>Luxembourg</option>
+                <option value=Malta>Malta</option>
+                <option value=Moldova>Moldova</option>
+                <option value=Monaco>Monaco</option>
+                <option value=Montenegro>Montenegro</option>
+                <option value=Netherlands>Netherlands</option>
+                <option value="North Macedonia">North Macedonia</option>
+                <option value=Norway>Norway</option>
+                <option value=Poland>Poland</option>
+                <option value=Portugal>Portugal</option>
+                <option value=Romania>Romania</option>
+                <option value="San Marino">San Marino</option>
+                <option value=Serbia>Serbia</option>
+                <option value=Slovakia>Slovakia</option>
+                <option value=Slovenia>Slovenia</option>
+                <option value=Spain>Spain</option>
+                <option value=Sweden>Sweden</option>
+                <option value=Switzerland>Switzerland</option>
+                <option value=Ukraine>Ukraine</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Vatican City">Vatican City</option>
+            </select>
+            </div>
+            
+            <div id=wish-counter>💫 0</div>
+        </div>
+
+        <button id=add-wish-btn>✨ ADD YOUR WISH</button>
+
+        <form id=message-form>
+            <button type=button class=close-btn>×</button>
+            <h2>✨ Send Your Wish ✨</h2>
+            
+            <div class=form-group>
+                <label for=message-input>Your Message:</label>
+                <input id=message-text maxlength=100 placeholder="Write your wish to the universe...">
+                <div class=char-counter><span id=char-counter>0</span>/100</div>
+            </div>
+
+            <div class=form-group>
+                <label>Choose your mood:</label>
+                <div id=mood-buttons>
+                    <button type=button class="hope mood-btn" data-mood=hope>💙 Hope</button>
+                    <button type=button class="love mood-btn" data-mood=love>💗 Love</button>
+                    <button type=button class="dream mood-btn" data-mood=dream>⭐ Dream</button>
+                    <button type=button class="gratitude mood-btn" data-mood=gratitude>🌿 Gratitude</button>
+                </div>
+            </div>
+
+            <div class=form-group>
+                <label for=country-select>Your Country:</label>
+                <select id=country-select required>
+                    <option value>Select your country...</option>
+                    <option value=Albania>Albania</option>
+                    <option value=Andorra>Andorra</option>
+                    <option value=Austria>Austria</option>
+                    <option value=Belgium>Belgium</option>
+                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                    <option value=Bulgaria>Bulgaria</option>
+                    <option value=Croatia>Croatia</option>
+                    <option value=Cyprus>Cyprus</option>
+                    <option value="Czech Republic">Czech Republic</option>
+                    <option value=Denmark>Denmark</option>
+                    <option value=Estonia>Estonia</option>
+                    <option value=Finland>Finland</option>
+                    <option value=France>France</option>
+                    <option value=Germany>Germany</option>
+                    <option value=Greece>Greece</option>
+                    <option value=Hungary>Hungary</option>
+                    <option value=Iceland>Iceland</option>
+                    <option value=Ireland>Ireland</option>
+                    <option value=Italy>Italy</option>
+                    <option value=Kosovo>Kosovo</option>
+                    <option value=Latvia>Latvia</option>
+                    <option value=Liechtenstein>Liechtenstein</option>
+                    <option value=Lithuania>Lithuania</option>
+                    <option value=Luxembourg>Luxembourg</option>
+                    <option value=Malta>Malta</option>
+                    <option value=Moldova>Moldova</option>
+                    <option value=Monaco>Monaco</option>
+                    <option value=Montenegro>Montenegro</option>
+                    <option value=Netherlands>Netherlands</option>
+                    <option value="North Macedonia">North Macedonia</option>
+                    <option value=Norway>Norway</option>
+                    <option value=Poland>Poland</option>
+                    <option value=Portugal>Portugal</option>
+                    <option value=Romania>Romania</option>
+                    <option value="San Marino">San Marino</option>
+                    <option value=Serbia>Serbia</option>
+                    <option value=Slovakia>Slovakia</option>
+                    <option value=Slovenia>Slovenia</option>
+                    <option value=Spain>Spain</option>
+                    <option value=Sweden>Sweden</option>
+                    <option value=Switzerland>Switzerland</option>
+                    <option value=Ukraine>Ukraine</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Vatican City">Vatican City</option>
+                </select>
+            </div>
+
+            <button type=button id=send-btn>Send to Space</button>
+        </form>
+    </div>
+    
+    <script type=module src=./wish1.b2701ac6.js></script>
+
